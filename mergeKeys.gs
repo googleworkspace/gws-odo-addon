@@ -166,8 +166,8 @@ function getDefaultMergeValue(sourceString) {
 function _testMergeKeys() {
   mergeInit();
 
-  addMergeKeyValuePair('{{senderEmal}}', 'dabouav@gmail.com');
-  addMergeKeyValuePair('{{token}}', 'Dave Abouav');
+  addMergeKeyValuePair('{{senderEmal}}', 'testemail@domain.com');
+  addMergeKeyValuePair('{{token}}', 'Test User');
 
   let targetString =
     '{{senderName || Bobby McFee}} plus also {{senderEmail}}'
